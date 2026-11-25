@@ -1,0 +1,5 @@
+{
+  "title": "Example topic",
+  "icon": "Notebook",
+  "pages": ["index", "second-page", "..."]
+}

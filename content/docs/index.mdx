@@ -1,0 +1,62 @@
+---
+title: Welcome
+description: How this notes site works, and where to start writing.
+icon: House
+---
+
+This site is made with [Notestack](https://github.com/yx-elite/notestack), a theme for [Fumadocs](https://fumadocs.dev). Your notes are Markdown files in `content/docs/`, and every change you save shows up straight away while `npm run dev` is running.
+
+## Make it yours
+
+<Steps>
+<Step>
+
+### Name the site
+
+Open `site.config.ts` and change `name`, `author`, `description` and `repo`. Uncomment `accent` to pick your own colour.
+
+</Step>
+<Step>
+
+### Write your first note
+
+Add a file to `content/docs/`, for example `content/docs/networking.mdx`:
+
+```mdx title="content/docs/networking.mdx"
+---
+title: Networking
+description: How computers find and talk to each other.
+---
+
+Your note starts here.
+```
+
+It appears in the sidebar, under *Notes*, and in search as soon as you save it.
+
+</Step>
+<Step>
+
+### Order the sidebar
+
+`content/docs/meta.json` lists the pages in order. `---Notes---` starts a section, `...example` adds every page in the `example` folder, and `...` adds every page that isn't listed, in A to Z order. List a page by its file name, without `.mdx`, to put it in a fixed place.
+
+</Step>
+<Step>
+
+### Delete the samples
+
+When you no longer need them, delete `content/docs/example/`, then remove `"...example"` from `meta.json`. Replace the terms in `content/glossary.json` with your own.
+
+</Step>
+</Steps>
+
+## What else is here
+
+<Cards>
+  <Card title="Example topic" href="/docs/example" description="A sample note showing callouts, tables, tabs and code." />
+  <Card title="Glossary" href="/docs/glossary" description="Every term from content/glossary.json, A to Z." />
+</Cards>
+
+<Callout type="info" title="Keep your notes in git">
+Commit and push to save your notes. Each page's *Last updated* date comes from its latest commit.
+</Callout>

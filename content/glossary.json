@@ -1,0 +1,12 @@
+[
+  {
+    "term": "Front matter",
+    "definition": "The block between --- lines at the top of a note: its title, description and sidebar icon.",
+    "href": "/docs/example",
+    "label": "Example topic"
+  },
+  {
+    "term": "Static site",
+    "definition": "A website made of plain files, built ahead of time, so any file host can serve it with no server."
+  }
+]

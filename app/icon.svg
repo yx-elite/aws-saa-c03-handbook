@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1.75 1.75 20.5 20.5">
+  <!-- Notestack mark in black and white: NotesLogo with the accent replaced by the text colour.
+       Black on light browser themes, white on dark ones. -->
+  <style>
+    .bg { stop-color: #fff; }
+    .fg { stop-color: #000; }
+    .line { stroke: #000; }
+    .fill { fill: #fff; }
+    @media (prefers-color-scheme: dark) {
+      .bg { stop-color: #000; }
+      .fg { stop-color: #fff; }
+      .line { stroke: #fff; }
+      .fill { fill: #000; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="-6.7" y1="0" x2="6.7" y2="0">
+      <stop offset="15%" class="bg"/>
+      <stop offset="85%" class="fg"/>
+    </linearGradient>
+  </defs>
+  <g stroke-width="1.5" vector-effect="non-scaling-stroke">
+    <rect class="line fill" x="-6.7" y="-6.7" width="13.4" height="13.4" rx="2.6" opacity="0.45" transform="translate(12 16.4) scale(1 0.5) rotate(45)" vector-effect="non-scaling-stroke" stroke-width="1.5"/>
+    <rect class="line fill" x="-6.7" y="-6.7" width="13.4" height="13.4" rx="2.6" opacity="0.75" transform="translate(12 12) scale(1 0.5) rotate(45)" vector-effect="non-scaling-stroke" stroke-width="1.5"/>
+    <rect class="line" fill="url(#g)" x="-6.7" y="-6.7" width="13.4" height="13.4" rx="2.6" transform="translate(12 7.6) scale(1 0.5) rotate(45)" vector-effect="non-scaling-stroke" stroke-width="1.5"/>
+  </g>
+</svg>
