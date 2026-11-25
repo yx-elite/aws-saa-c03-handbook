@@ -54,4 +54,4 @@ npm run build
 
 ## License
 
-[MIT License](LICENSE): free to reuse the notes with credit. Third-party materials are not included and belong to their authors. AWS and the AWS logo are trademarks of Amazon.com, Inc. or its affiliates; this is an unofficial study resource.
+[MIT License](LICENSE). AWS and the AWS logo are trademarks of Amazon.com, Inc. or its affiliates; this is an unofficial study resource.

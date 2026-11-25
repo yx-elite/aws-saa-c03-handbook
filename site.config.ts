@@ -6,7 +6,7 @@ import { defineSiteConfig } from '@yx-elite/notestack';
 export default defineSiteConfig({
   // Shown in the header, the sidebar banner and the browser tab
   name: 'AWS SAA-C03 Handbook',
-  author: 'Yi Xian',
+  author: 'yx-elite',
   // One sentence about the notes (also the description search engines show)
   description: 'Study notes for the AWS Certified Solutions Architect – Associate (SAA-C03) exam, topic by topic.',
   // Your GitHub repo as "owner/name", for the GitHub links
